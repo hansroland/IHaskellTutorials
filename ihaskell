@@ -1,1 +1,3 @@
-IHaskell notebook --serve=~/Haskell/IHaskellTutorials
+#!/bin/bash 
+cd /home/roland/Software/Github/IHaskell
+cabal exec ipython -- notebook ~/Projekte/IHaskellTutorials
